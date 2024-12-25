@@ -1,0 +1,245 @@
+@media (max-width:1400px){
+    .search-box__img{
+        width: 15rem;
+        top: 6rem;
+    }
+    .search-box__img:last-child{
+        left: 14rem;
+        top: 32rem;
+    }
+}
+@media (max-width:1200px){
+    .nav__content{
+        grid-template-columns: 50rem 43rem;
+    }
+    .food-product{
+        grid-template-columns: repeat(3,1fr);
+    }
+    .sale-off-card__item{
+        width: 29rem;
+    }
+    .sale-off-card__title{
+        font-size: 2.2rem;
+    }
+    .sale-off-card__image{
+        right: -6rem;
+        top: 14rem;
+        width: 20rem;
+    }
+    .sale-off-card{
+        grid-template-columns: repeat(3 , 29rem);
+    }
+    .search-box__title{
+        font-size: 4rem;
+    }
+    .search-box__img{
+        width: 12rem;
+        top: 7rem;
+    }
+    .search-box__img:last-child{
+        left: 10rem;
+        top: 33.5rem;
+    }
+}
+   
+
+@media (max-width: 992px){
+    .nav-list{
+        display: none;
+    }
+    .nav__link{ 
+        padding: 1rem;
+    }
+    .nav__links{
+        display: block;
+        justify-self: center;
+    }
+    .nav__icon{
+        display: block;
+        justify-self: flex-end;
+    }
+    .nav{
+        grid-template-columns: repeat(3,auto);
+    }
+    .list-mobile{
+        display: flex;
+        flex-direction: column;
+    }
+    #nav_check:checked + label .close__icon{
+        display: block;
+    }
+    .nav__content{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 5rem;
+        margin-bottom: 10rem;
+    }
+    .header-content-left{
+        max-width: 42rem;
+        margin: 0 auto;
+    }
+    .header-content-right{
+        max-width: 42rem;
+        margin: 0 auto;
+    }
+    .food-product{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .sale-off-card{
+        grid-template-columns: repeat(2 , auto);
+    }
+    .sale-off-card__item{
+        width: 33rem;
+    }
+    .mobile__image{
+        grid-row: 2;
+        grid-column: 1 span;
+        margin-top: 8rem;
+    }
+    .mobile__img{
+        top: -1.9rem;
+    }
+    .mobile-content{
+        grid-column: 2 span;
+    }
+    .mobile-content__title{
+        font-size: 3.6rem;
+    }
+    .search-box__title{
+        font-size: 3rem;
+    }
+    .search-box__img{
+        width: 9rem;
+        top: 7rem;
+    }
+    .search-box__img:last-child{
+        left: 10rem;
+        top: 32rem;
+        width: 16rem;
+    }
+}
+@media(max-width:786px){
+    .food-product{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .sale-off-card{
+        grid-template-columns: repeat(2 , auto);
+    }
+    .sale-off-card__item{
+        width: 100%;
+    }
+    .search-box__img{
+        width: 10rem;
+        top: 2rem;
+    }
+    .search-box__img:last-child{
+        left: 5rem;
+        top: 32.3rem;
+        width: 15rem;
+    }
+    .footer-content{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .footer-content__info{
+        grid-row: 2;
+        grid-column: 3 span;
+        justify-self: center;
+        margin-top: 2rem;
+    }
+    .footer-content__list-2{
+        grid-column: 2 span;
+    }
+    
+}
+@media(max-width:676px){
+    .mobile-download{
+        max-width: 100%;
+        border-top-right-radius: 20rem;
+        border-top-left-radius: 20rem;
+        border-bottom-right-radius: 0;
+    }
+    .mobile-content{
+        margin-top: 5rem;
+        text-align: center;
+    }
+    .mobile-content__explain{
+        max-width: 100%;
+    }
+    .mobile__image{
+        grid-row: 2;
+        grid-column: 2 span;
+        justify-self: center;
+    }
+    .mobile__img{
+        max-width: 30rem;
+        top: -2.5rem;
+    }
+    .mobile-content__links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .mobile-content__link:last-child {
+        margin-left: 0;
+    }
+}
+@media(max-width:568px){
+    .container{
+        overflow-y: hidden;
+    }
+    .header-btn{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .header-btn__right{
+        margin-left: 0;
+        margin-top: 2rem;
+    }
+    .nav__content{
+        grid-template-columns: auto auto;
+    }
+    .header-content-right{
+        max-width: 38rem;
+    }
+    .header-content-left__title{
+        font-size: 4rem;
+    }
+    .header-content-left{
+        width: 100%;
+    }
+    .food-product{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .sale-off-card__item{
+        width: 27rem;
+        margin: 0 auto;
+    }
+    .sale-off-card__image{
+        right: -3rem;
+        top: 14rem;
+        width: 17rem;
+    }
+    .sale-off-card{
+        grid-template-columns: repeat(1 , auto);
+    }
+    .sale-off-card__item{
+    }
+    .search-box__form{
+        width: 100%;
+    }
+    .search-box__form-submit{
+        padding: 1rem 0.5rem;
+    }
+    .search-box__title{
+        font-size: 2rem;
+    }
+    .search-box__img{
+        width: 7rem;
+        top: 2rem;
+    }
+    .search-box__img:last-child {
+        left: 5rem;
+        top: 34.4rem;
+        width: 10rem;
+}
